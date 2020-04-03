@@ -140,13 +140,20 @@ height: 3rem;
 }
 
 .side-page1,
-.side-page2 {
+.side-page2,
+.group4-box1,
+.group4-box2,
+.group4-box3,
+.group4-box4,
+.group4-box5,
+.group4-box6,
+.group4-box7,
+.group4-box8{
  background-color: #000;
  background-size: cover;
  background-position: 50%; 
  color: #fff;
  width: 100%;
- height: 15rem; 
 }
 
 .side-page1 {
@@ -185,14 +192,16 @@ height: 3rem;
 }
 
 .article-group-two {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr); 
     grid-column-gap: 1rem;
     grid-row-gap: 2rem;
 }
 
 .group-two,
-.group-three {
+.group-three,
+.group-four,
+.group-five {
     margin: 5rem 4rem 0 4rem;
 }
 .group-two h2{
@@ -283,3 +292,167 @@ height: 3rem;
 .img3-pad{
   padding: 0 1.5rem 2rem 1.5rem;
 }
+.group-four {
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+}
+.group4-smallimg {
+    width: 10rem;
+    min-height: 6rem;
+}  
+.group4-smallimg img{
+  width: 100%;
+  height: 100%;
+  display:block;
+}
+
+.group4-title {
+    font-size: 1.1rem;
+    display: flex;
+}
+
+.group4-title a{
+    text-decoration: none; 
+    color: #ff0000;
+}
+
+.group4-title i{
+    font-size: 1.6rem;
+    color: #ff0000;
+    margin: 0 0 1rem 0.4rem;
+    padding-top: 0.3rem;
+}
+
+.group4-box1{
+background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Messenger-Desktop-368x276.jpg");
+min-height: 17.2rem;
+padding: 0 0.5rem;   
+}
+
+.group4-box2 {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/04/Intel-Core-i9-hed-368x276.jpg");
+    min-height: 17.2rem;
+    padding: 0 0.5rem;    
+}
+.group4-box3 {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/05/Neighbourly-hed-368x276.jpg");
+    min-height: 17.2rem;
+    padding: 0 0.5rem; 
+}
+
+.group4-box4  {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/fleet-ops-computers-368x276.png");
+    min-height: 17.2rem;
+    padding: 0 0.5rem; 
+}
+
+.group4-box5  {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/digital-fingerprint-368x276.png");
+    min-height: 17.2rem;
+    padding: 0 0.5rem; 
+}
+.group4-box6 {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/crack-368x276.png");
+    min-height: 17.2rem;
+    padding: 0 0.5rem; 
+}
+.group4-box7 {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Google-coronavirus-portal-368x276.jpg");
+    min-height: 17.2rem;
+    padding: 0 0.5rem; 
+}
+.group4-box8 {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/facebook-368x276.png");
+    min-height: 17.2rem;
+    padding: 0 0.5rem; 
+}
+.group-four header h5{
+    padding-top: 12rem;
+}
+.group-four header a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.group-four header span,
+.group-four header span p{
+    color:#94b8b8; 
+    font-size: 0.8rem;
+    padding-top: 0.2rem;
+}
+.group4-textbox {
+    display: flex;
+    background-color:hsla(12, 100%, 95%, 0.5);
+    min-height: 5rem;
+}
+
+.group4-titlebox {
+  margin:  1.2rem 0 1.2rem 0.5rem;
+}
+
+.group4-titlebox h4{
+  color: #ff471a;
+}
+
+.group4-titlebox a{
+  text-decoration: none;
+  color: #ff0000;
+}
+
+.group-four ul a{
+  text-decoration: none;
+  color: #141f1f;
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+  padding-left: 0.4rem;
+
+}
+
+.group-four ul li{
+    padding: 0.3rem 0;
+    border-bottom: 1px solid #d1e0e0;
+    list-style-type: none;
+}
+.group-four ul i{
+  font-size: 0.3rem;
+  color:#ff5c33;
+}
+
+.deal-discount {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/deals-ribbon.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: #000;
+    display: block;
+    height: 5rem;
+    overflow: hidden;
+    pointer-events: none;
+    position: absolute;
+    left: 11.54rem; 
+    bottom: 12.7rem;
+    /* right: 0;
+    top: 0; */
+    width: 5rem;
+    z-index: 10;
+} 
+
+.group-five-title {
+    display: flex;
+}
+
+.group-five-container {
+ display: grid;
+ grid-template-columns: repeat(4, 1fr);
+ grid-gap: 2rem;
+}
+
+
+
+
+ 
+
+
+
+
+
