@@ -150,8 +150,8 @@ height: 3rem;
 }
 
 .side-page1 {
- background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Untitled-design45-796x417.png");
  margin-bottom: 0.6rem;
+ background:linear-gradient(0deg, rgba(17, 17, 17, 0.192), rgba(17, 17, 17, 0.2)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Untitled-design45-796x417.png");
 }
 
 .side1 p{
@@ -176,7 +176,7 @@ height: 3rem;
 }
 
 .side-page2 {
-    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/1-1-796x417.jpg");
+    background:linear-gradient(0deg, rgba(17, 17, 17, 0.192), rgba(17, 17, 17, 0.2)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/1-1-796x417.jpg");
 }
 
 .side2 .side2-title {
@@ -333,45 +333,45 @@ height: 3rem;
 }
 
 .group4-box1{
-background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Messenger-Desktop-368x276.jpg");
+background:linear-gradient(0deg, rgba(17, 17, 17, 0.192), rgba(17, 17, 17, 0.2)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Messenger-Desktop-368x276.jpg");
 min-height: 17.2rem;
 padding: 0 0.5rem;   
 }
 
 .group4-box2 {
-    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/04/Intel-Core-i9-hed-368x276.jpg");
+    background:linear-gradient(0deg, rgba(17, 17, 17, 0.192), rgba(17, 17, 17, 0.2)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/04/Intel-Core-i9-hed-368x276.jpg");
     min-height: 17.2rem;
     padding: 0 0.5rem;    
 }
 .group4-box3 {
-    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/05/Neighbourly-hed-368x276.jpg");
+    background:linear-gradient(0deg, rgba(17, 17, 17, 0.192), rgba(17, 17, 17, 0.2)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/05/Neighbourly-hed-368x276.jpg");
     min-height: 17.2rem;
     padding: 0 0.5rem; 
 }
 
 .group4-box4  {
-    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/fleet-ops-computers-368x276.png");
+    background:linear-gradient(0deg, rgba(17, 17, 17, 0.192), rgba(17, 17, 17, 0.2)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/fleet-ops-computers-368x276.png");
     min-height: 17.2rem;
     padding: 0 0.5rem; 
 }
 
 .group4-box5  {
-    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/digital-fingerprint-368x276.png");
+    background:linear-gradient(0deg, rgba(17, 17, 17, 0.192), rgba(17, 17, 17, 0.2)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/digital-fingerprint-368x276.png");
     min-height: 17.2rem;
     padding: 0 0.5rem; 
 }
 .group4-box6 {
-    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/crack-368x276.png");
+    background:linear-gradient(0deg, rgba(17, 17, 17, 0.192), rgba(17, 17, 17, 0.2)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/crack-368x276.png");
     min-height: 17.2rem;
     padding: 0 0.5rem; 
 }
 .group4-box7 {
-    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Google-coronavirus-portal-368x276.jpg");
+    background:linear-gradient(0deg, rgba(17, 17, 17, 0.192), rgba(17, 17, 17, 0.2)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Google-coronavirus-portal-368x276.jpg");
     min-height: 17.2rem;
     padding: 0 0.5rem; 
 }
 .group4-box8 {
-    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/facebook-368x276.png");
+    background:linear-gradient(0deg, rgba(17, 17, 17, 0.192), rgba(17, 17, 17, 0.2)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/facebook-368x276.png");
     min-height: 17.2rem;
     padding: 0 0.5rem; 
 }
