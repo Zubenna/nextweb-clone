@@ -52,7 +52,7 @@ height: 3rem;
     height: 2rem;
     background-color: #ffdb4d;
     color: #000;
-}
+} 
 
 .tech-festival p {
  padding-top: 0.5rem;
@@ -78,8 +78,8 @@ height: 3rem;
 .page-logo{
     background: transparent url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg") no-repeat;
     background-size: contain;
-    margin-top: 2rem;
-    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem; 
     max-width: 50%;
     height: 35%;
     line-height: 1;
@@ -97,7 +97,7 @@ height: 3rem;
     pointer-events: none;
     position: absolute;
     right:25rem;
-    top: 7rem;
+    top: 6.6rem;
 }    
 
 .cover-date p {
@@ -140,20 +140,13 @@ height: 3rem;
 }
 
 .side-page1,
-.side-page2,
-.group4-box1,
-.group4-box2,
-.group4-box3,
-.group4-box4,
-.group4-box5,
-.group4-box6,
-.group4-box7,
-.group4-box8{
+.side-page2 {
  background-color: #000;
  background-size: cover;
  background-position: 50%; 
  color: #fff;
  width: 100%;
+ height: 15rem;
 }
 
 .side-page1 {
@@ -297,6 +290,21 @@ height: 3rem;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 2rem;
 }
+.group4-box1,
+.group4-box2,
+.group4-box3,
+.group4-box4,
+.group4-box5,
+.group4-box6,
+.group4-box7,
+.group4-box8 {
+ background-color: #000;
+ background-size: cover;
+ background-position: 50%; 
+ color: #fff;
+ width: 100%;
+}
+
 .group4-smallimg {
     width: 10rem;
     min-height: 6rem;
@@ -419,33 +427,53 @@ padding: 0 0.5rem;
   color:#ff5c33;
 }
 
-.deal-discount {
-    background-image: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/deals-ribbon.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    color: #000;
-    display: block;
-    height: 5rem;
-    overflow: hidden;
-    pointer-events: none;
-    position: absolute;
-    left: 11.54rem; 
-    bottom: 12.7rem;
-    /* right: 0;
-    top: 0; */
-    width: 5rem;
-    z-index: 10;
-} 
-
 .group-five-title {
     display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
 }
 
+.group-five-title a,
+.group-five-title i{
+   text-decoration: none; 
+   color:#ff0000; 
+}
 .group-five-container {
  display: grid;
  grid-template-columns: repeat(4, 1fr);
  grid-gap: 2rem;
 }
+.group-five-title h3{
+  font-size: 1.8rem;
+}
+.group-five-title h5 {
+    font-size: 1rem;
+}
+
+.caption-5 a{
+  text-decoration: none;
+  color: #000;
+}
+
+.caption-5 a:hover{
+   text-decoration: underline;
+   color: #ff0000;
+}
+.caption-5 h4{
+    margin-top: 0.5rem;
+} 
+
+.caption-5 .old-price{
+    font-size: 0.9rem;
+    color: #a5c0c0;
+    text-decoration: line-through;
+}
+
+.caption-5 .current-price{
+    margin-left: 0.4rem;
+    font-size: 1.2rem;
+}
+
 
 
 
