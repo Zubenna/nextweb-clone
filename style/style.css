@@ -4,572 +4,759 @@
     box-sizing: border-box;
     max-width: 100%;
 }
-
-.navgroup-one {
-    height: 2rem;
-    background-color: #000;
-    align-items: center;
-    color: #fff;
-    display: flex;
-    justify-content: space-between; 
+body {
+    font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
 }
 
-.navgroup-one .left-menu li,
-.navgroup-one .right-menu li {
-    list-style-type: none;
-    display: inline-block; 
-    padding: 0.2rem;
-}
-
-.navgroup-one .left-menu li select{
-    background-color: inherit;
-    color: inherit;
-    border: none;
-}
-
-.navgroup-two {
-height: 3rem;
-}
-
-.navgroup-two li {
-    list-style-type: none;
-    display: inline-block; 
-    padding: 0.3rem; 
-    height: 1.6rem;
-    background-color: #fff;
-    padding-top: 1.1rem;
-    color: #94b8b8;
-}
-
-.fa-search {
-    float: right;
-    margin-right: 2rem; 
-    color: #d1e0e0;
-    padding: 1.1rem 0 0 1.1rem;
-    border-left: 0.01rem solid #e1eaea;
-}
-.tech-festival {
-    height: 2rem;
-    background-color: #ffdb4d;
-    color: #000;
-} 
-
-.tech-festival p {
- padding-top: 0.5rem;
-}
-
-.article-group-one {
-    display: grid;
-    grid-template-columns: 70% 30%;
-    margin: 0 0.8rem; 
-} 
-
-.cover-page {
-    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/coronavirus-china-app-796x448.jpg");
-    background-color: #000;
-    background-size: cover; 
-    background-position: 50%; 
-    min-height: 29rem;
-    color: #fff;
-    margin-right: 0.5rem;
-    width: 99%;
-}
-
-.page-logo{
-    background: transparent url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg") no-repeat;
-    background-size: contain;
-    margin-top: 1rem;
-    margin-left: 1rem; 
-    max-width: 50%;
-    height: 35%;
-    line-height: 1;
-    pointer-events: none;
-    text-align: right;
-}  
-
-.page-gradient {
-    background: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png") no-repeat; 
-    background-position: 0 0;
-    background-size: cover;
-    bottom: 8rem;
-    left: 0.9rem; 
-    mix-blend-mode: lighten;
-    pointer-events: none;
-    position: absolute;
-    right:25rem;
-    top: 6.6rem;
-}    
-
-.cover-date p {
-    position: relative;
-    bottom: 11rem;
-    left: 43rem;
-    font-size: 1rem;
-    display: inline-block;
-} 
-
-.group-one a{
-    text-decoration: none;
-    color: #fff;
-}
-
-.cover-page header {
-    padding-left: 1rem;
-    margin-top: 2rem;
-}
-
-.cover-page header h5 {
- font-size: 1.5rem;
-} 
-
-.cover-page header h2 {
-    font-size: 2.8rem;
-}
-.cover-page ul{
- margin-top: 6.4rem;
-}
-.cover-page ul li,
-.side1 ul li,
-.side2 ul li {
-    list-style-type: none;
-    display: inline-block;
-    padding: 0.2rem;
-}
-.cover-authour{
-    padding-right: 0.3rem;
-}
-
-.side-page1,
-.side-page2 {
- background-color: #000;
- background-size: cover;
- background-position: 50%; 
- color: #fff;
- width: 100%;
- height: 15rem;
-}
-
-.side-page1 {
- margin-bottom: 0.6rem;
- background:linear-gradient(0deg, rgba(17, 17, 17, 0.192), rgba(17, 17, 17, 0.2)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Untitled-design45-796x417.png");
-}
-
-.side1 p{
- padding: 5rem 0.8rem 0 0.8rem;
-}
-
-.side1 p,
-.side2 p{
-    font-size: 1.8rem;
-    padding-left: 0.8rem;
-}   
-
-.side1 ul,
-.side2 ul {
-    padding-left: 0.8rem;
-}
-.side1 ul {
-    margin-top: 1.5rem;
-}
-.side2 ul {
-    margin-top: 4.4rem; 
-}
-
-.side-page2 {
-    background:linear-gradient(0deg, rgba(17, 17, 17, 0.192), rgba(17, 17, 17, 0.2)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/1-1-796x417.jpg");
-}
-
-.side2 .side2-title {
-    font-size: 1.1rem;
-    padding-top: 2rem;
-}
-
-.article-group-two {
-    display: grid; 
-    grid-template-columns: repeat(4, 1fr); 
-    grid-column-gap: 1rem;
-    grid-row-gap: 2rem;
-}
-
-.group-two,
-.group-three,
-.group-four,
-.group-five {
-    margin: 5rem 4rem 0 4rem;
-}
-.group-two h2{
-    margin-bottom: 1.6rem;
-    color: #ff0000;
-    font-size: 2rem;
-}
-.column-box{
- text-align: left;
-}
-
-.column-box img,
-.img-extract img{
-    width: 100%;
-    height: 100%;
-    display: block;
-}
-.column-box a{
-    text-decoration: none;
-    color: #000;
-    font-size: 1.2rem;
-}
-.column-box h3{
-    padding-top: 0.8rem;
-    padding-bottom: 0.6rem;
-}
-.column-box span a{
-  font-size: 1rem; 
-  color: #b3cbcb; 
-}
-.section-3-heading {
-    display: flex;
-    justify-content: space-between;
-}
-.section-3-heading a{
-    text-decoration: none;
-    color: #ff0000;
-}
-.section-3-heading ul li{
-   display: inline-block;
-   list-style-type: none;
-   padding: 0 0.6rem;
-   margin-top: 0.3rem;
-   font-size: 1.1rem;
-} 
-
-.section-3-heading h2{
-  font-size: 1.8rem;
-  color: #ff0000;
-}
-.section-3-heading ul li:nth-child(2){
-   border-left: 1px solid #ff0000;
-   border-right: 1px solid #ff0000;
-   line-height: 0.7rem;
-}
-.image-group3-box {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-column-gap: 1rem;
-    margin-top: 1.8rem;
-}
-.img-extract .img3{
-    padding-left: 2.9rem;
-} 
-
-.img-extract a{
-  text-decoration: none;
-  color: #141f1f;
-  font-size: 0.9rem;
-}
-.img-extract i {
-    margin: 0.6rem 1rem 0 0.9rem;
-}
-.img-group3 {
-    background-color:hsla(12, 100%, 95%, 0.3);
-}
-.img-extract hr{
-    margin: 1.2rem 0;
-    height: 1px;
-    background-color: hsl(0, 82%, 58%);
-    border: none;
-}
-.img-extract span{
-    font-size: 0.8rem;
-    color: #94b8b8;
-}
-
-.img3-pad{
-  padding: 0 1.5rem 2rem 1.5rem;
-}
-.group-four {
-    display: grid; 
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 2rem;
-}
-.group4-box1,
-.group4-box2,
-.group4-box3,
-.group4-box4,
-.group4-box5,
-.group4-box6,
-.group4-box7,
-.group4-box8 {
- background-color: #000;
- background-size: cover;
- background-position: 50%; 
- color: #fff;
- width: 100%;
-}
-
-.group4-smallimg {
-    width: 10rem;
-    min-height: 6rem;
-}  
-.group4-smallimg img{
-  width: 100%;
-  height: 100%;
-  display:block;
-}
-
-.group4-title {
-    font-size: 1.1rem;
-    display: flex;
-}
-
-.group4-title a{
-    text-decoration: none; 
-    color: #ff0000;
-}
-
-.group4-title i{
-    font-size: 1.6rem;
-    color: #ff0000;
-    margin: 0 0 1rem 0.4rem;
-    padding-top: 0.3rem;
-}
-
-.group4-box1{
-background:linear-gradient(0deg, rgba(17, 17, 17, 0.192), rgba(17, 17, 17, 0.2)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Messenger-Desktop-368x276.jpg");
-min-height: 17.2rem;
-padding: 0 0.5rem;   
-}
-
-.group4-box2 {
-    background:linear-gradient(0deg, rgba(17, 17, 17, 0.192), rgba(17, 17, 17, 0.2)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/04/Intel-Core-i9-hed-368x276.jpg");
-    min-height: 17.2rem;
-    padding: 0 0.5rem;    
-}
-.group4-box3 {
-    background:linear-gradient(0deg, rgba(17, 17, 17, 0.192), rgba(17, 17, 17, 0.2)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/05/Neighbourly-hed-368x276.jpg");
-    min-height: 17.2rem;
-    padding: 0 0.5rem; 
-}
-
-.group4-box4  {
-    background:linear-gradient(0deg, rgba(17, 17, 17, 0.192), rgba(17, 17, 17, 0.2)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/fleet-ops-computers-368x276.png");
-    min-height: 17.2rem;
-    padding: 0 0.5rem; 
-}
-
-.group4-box5  {
-    background:linear-gradient(0deg, rgba(17, 17, 17, 0.192), rgba(17, 17, 17, 0.2)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/digital-fingerprint-368x276.png");
-    min-height: 17.2rem;
-    padding: 0 0.5rem; 
-}
-.group4-box6 {
-    background:linear-gradient(0deg, rgba(17, 17, 17, 0.192), rgba(17, 17, 17, 0.2)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/crack-368x276.png");
-    min-height: 17.2rem;
-    padding: 0 0.5rem; 
-}
-.group4-box7 {
-    background:linear-gradient(0deg, rgba(17, 17, 17, 0.192), rgba(17, 17, 17, 0.2)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Google-coronavirus-portal-368x276.jpg");
-    min-height: 17.2rem;
-    padding: 0 0.5rem; 
-}
-.group4-box8 {
-    background:linear-gradient(0deg, rgba(17, 17, 17, 0.192), rgba(17, 17, 17, 0.2)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/facebook-368x276.png");
-    min-height: 17.2rem;
-    padding: 0 0.5rem; 
-}
-.group-four header h5{
-    padding-top: 12rem;
-}
-.group-four header a{
-  text-decoration: none;
-  color: #fff;
-}
-
-.group-four header span,
-.group-four header span p{
-    color:#94b8b8; 
-    font-size: 0.8rem;
-    padding-top: 0.2rem;
-}
-.group4-textbox {
-    display: flex;
-    background-color:hsla(12, 100%, 95%, 0.5);
-    min-height: 5rem;
-}
-
-.group4-titlebox {
-  margin:  1.2rem 0 1.2rem 0.5rem;
-}
-
-.group4-titlebox h4{
-  color: #ff471a;
-}
-
-.group4-titlebox a{
-  text-decoration: none;
-  color: #ff0000;
-}
-
-.group-four ul a{
-  text-decoration: none;
-  color: #141f1f;
-  font-size: 0.9rem;
-  line-height: 1.3rem;
-  padding-left: 0.4rem;
-
-}
-
-.group-four ul li{
-    padding: 0.3rem 0;
-    border-bottom: 1px solid #d1e0e0;
-    list-style-type: none;
-}
-.group-four ul i{
-  font-size: 0.3rem;
-  color:#ff5c33;
-}
-
-.group-five-title {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 2rem;
-}
-
-.group-five-title a,
-.group-five-title i{
-   text-decoration: none; 
-   color:#ff0000; 
-}
-.group-five-container {
- display: grid;
- grid-template-columns: repeat(4, 1fr);
- grid-gap: 2rem;
-}
-.group-five-title h3{
-  font-size: 1.8rem;
-}
-.group-five-title h5 {
-    font-size: 1rem;
-}
-
-.caption-5 a{
-  text-decoration: none;
-  color: #000;
-}
-
-.caption-5 a:hover{
-   text-decoration: underline;
-   color: #ff0000;
-}
-.caption-5 h4{
-    margin-top: 0.5rem;
-} 
-
-.caption-5 .old-price{
-    font-size: 0.9rem;
-    color: #a5c0c0;
-    text-decoration: line-through;
-}
-
-.caption-5 .current-price{
-    margin-left: 0.4rem;
-    font-size: 1.2rem;
-}
-
-footer {
-    margin-top: 3rem;
-}
-
-footer .top-section{
-  background-color: rgba(0, 0, 0, 0.925);
-  width: 100%;
-  height: 10rem;
-}
-
-footer .bottom-section{
-    width: 100%;
-    height: 7rem; 
-    background-color: rgba(0, 0, 0);
-}
-
-.social-icon{
-    width: 2.7rem;
-    height: 2.7rem;
-    padding: 0.8rem;
-    background: #96999949;
-    border-radius: 50%;
-}
-footer .fa-facebook{
-   color: #000;
-   background-color: #fff;
-   width: 1.5rem;
-   height: 1.2rem;
-   padding-top: 0.4rem;
-   padding-left: 0.5rem;
-   font-size: 0.8rem;
-   text-decoration: none;
-}
-
-footer .fb{
-    color: #fff;
-    font-size: 1.2rem;
-    text-decoration: none; 
-}
-
-.footer-list-a li{
-    padding: 0 0.4rem;
-    list-style: none;
-} 
- .footer-list-a {
-    padding-top: 2.6rem; 
- }
- .footer-list-b{
-    padding-top: 1.6rem; 
- }
- .footer-list-b a{
-     text-decoration: none;
-     color: #fff;
-     font-size: 0.8rem;
- }
- .footer-list-b li{
-    padding: 0 0.2rem;
-    list-style: none;
- }
-
-.top-section ul{
-    display: flex;
-    justify-content: center;
-}
-
-.footnote {
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    padding-top: 3rem;
-}
- .footnote a{
-  padding-top: 0.2rem;
-  padding-left: 0.4rem;
-}
-.footnote span{
- font-size: 0.7rem;
- color: #ff0000;
- padding: 0 0.3rem;
-}
-
-.footnote .small-logo{
-    width: 3rem;
-    height: 2rem;
-    padding-right: 0.4rem;
-    padding-bottom: 1.3rem;
-}
-.footnote .stackpath-logo{
-    width: 5rem;
+    .navgroup-one {
+        height: 2rem;
+        background-color: #000;
+        align-items: center;
+        color: #fff;
+        display: flex;
+        justify-content: space-between; 
+    }
+    
+    .navgroup-one .left-menu li,
+    .navgroup-one .right-menu li {
+        list-style-type: none;
+        display: inline-block; 
+        padding: 0.2rem;
+    }
+    
+    .navgroup-one .left-menu li select{
+        background-color: inherit;
+        color: inherit;
+        border: none;
+    }
+    
+    .navgroup-two {
     height: 3rem;
-    padding-bottom: 2.2rem;
+    }
+    
+    .navgroup-two li {
+        list-style-type: none;
+        display: inline-block; 
+        padding: 0.3rem; 
+        height: 1.6rem;
+        background-color: #fff;
+        padding-top: 1.1rem;
+        color: #94b8b8;
+    }
+    
+    .fa-search {
+        float: right;
+        margin-right: 2rem; 
+        color: #d1e0e0;
+        padding: 1.1rem 0 0 1.1rem;
+        border-left: 0.01rem solid #e1eaea;
+    }
+    .tech-festival {
+        height: 2rem;
+        background-color: #ffdb4d;
+        color: #000;
+    } 
+    
+    .tech-festival p {
+     padding-top: 0.5rem;
+    }
+    
+    .article-group-one {
+        display: grid;
+        grid-template-columns: 70% 30%;
+        margin: 0 0.8rem; 
+    } 
+    
+    .cover-page {
+        background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/coronavirus-china-app-796x448.jpg");
+        background-color: #000;
+        background-size: cover; 
+        background-position: 50%; 
+        min-height: 29rem;
+        color: #fff;
+        margin-right: 0.5rem;
+        width: 99%;
+    }
+    
+    .page-logo{
+        background: transparent url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg") no-repeat;
+        background-size: contain;
+        margin-top: 1rem;
+        margin-left: 1rem; 
+        max-width: 50%;
+        height: 35%;
+        line-height: 1;
+        pointer-events: none;
+        text-align: right;
+    }  
+    
+    .page-gradient {
+        background: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png") no-repeat; 
+        background-position: 0 0;
+        background-size: cover;
+        bottom: 8rem;
+        left: 0.9rem; 
+        mix-blend-mode: lighten;
+        pointer-events: none;
+        position: absolute;
+        right:25rem;
+        top: 6.6rem;
+    }    
+    
+    .cover-date p {
+        position: relative;
+        bottom: 11rem;
+        left: 43rem;
+        font-size: 1rem;
+        display: inline-block;
+    } 
+    
+    .group-one a{
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    .cover-page header {
+        padding-left: 1rem;
+        margin-top: 2rem;
+    }
+    
+    .cover-page header h5 {
+     font-size: 1.5rem;
+    } 
+    
+    .cover-page header h2 {
+        font-size: 2.8rem;
+    }
+    .cover-page ul{
+     margin-top: 6.4rem;
+    }
+    .cover-page ul li,
+    .side1 ul li,
+    .side2 ul li {
+        list-style-type: none;
+        display: inline-block;
+        padding: 0.2rem;
+    }
+    .cover-authour{
+        padding-right: 0.3rem;
+    }
+    
+    .side-page1,
+    .side-page2 {
+     background-color: #000;
+     background-size: cover;
+     background-position: 50%; 
+     color: #fff;
+     width: 100%;
+     height: 15rem;
+    }
+    
+    .side-page1 {
+     margin-bottom: 0.6rem;
+     background:linear-gradient(0deg, rgba(17, 17, 17, 0.192), rgba(17, 17, 17, 0.2)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Untitled-design45-796x417.png");
+    }
+    
+    .side1 p{
+     padding: 5rem 0.8rem 0 0.8rem;
+    }
+    
+    .side1 p,
+    .side2 p{
+        font-size: 1.8rem;
+        padding-left: 0.8rem;
+    }   
+    
+    .side1 ul,
+    .side2 ul {
+        padding-left: 0.8rem;
+    }
+    .side1 ul {
+        margin-top: 1.5rem;
+    }
+    .side2 ul {
+        margin-top: 4.4rem; 
+    }
+    
+    .side-page2 {
+        background:linear-gradient(0deg, rgba(17, 1file:///home/namdy/Desktop/Microverse%20Project/nextweb-clone/style/style.css {"mtime":1586133559058,"ctime":1585604772878,"size":18039,"etag":"34rg91k55ins","orphaned":false}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
 }
+body {
+    font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
+}
+
+    .navgroup-one {
+        height: 2rem;
+        background-color: #000;
+        align-items: center;
+        color: #fff;
+        display: flex;
+        justify-content: space-between; 
+    }
+    
+    .navgroup-one .left-menu li,
+    .navgroup-one .right-menu li {
+        list-style-type: none;
+        display: inline-block; 
+        padding: 0.2rem;
+    }
+    
+    .navgroup-one .left-menu li select{
+        background-color: inherit;
+        color: inherit;
+        border: none;
+    }
+    
+    .navgroup-two {
+    height: 3rem;
+    }
+    
+    .navgroup-two li {
+        list-style-type: none;
+        display: inline-block; 
+        padding: 0.3rem; 
+        height: 1.6rem;
+        background-color: #fff;
+        padding-top: 1.1rem;
+        color: #94b8b8;
+    }
+    
+    .fa-search {
+        float: right;
+        margin-right: 2rem; 
+        color: #d1e0e0;
+        padding: 1.1rem 0 0 1.1rem;
+        border-left: 0.01rem solid #e1eaea;
+    }
+    .tech-festival {
+        height: 2rem;
+        background-color: #ffdb4d;
+        color: #000;
+    } 
+    
+    .tech-festival p {
+     padding-top: 0.5rem;
+    }
+    
+    .article-group-one {
+        display: grid;
+        grid-template-columns: 70% 30%;
+        margin: 0 0.8rem; 
+    } 
+    
+    .cover-page {
+        background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/coronavirus-china-app-796x448.jpg");
+        background-color: #000;
+        background-size: cover; 
+        background-position: 50%; 
+        min-height: 29rem;
+        color: #fff;
+        margin-right: 0.5rem;
+        width: 99%;
+    }
+    
+    .page-logo{
+        background: transparent url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg") no-repeat;
+        background-size: contain;
+        margin-top: 1rem;
+        margin-left: 1rem; 
+        max-width: 50%;
+        height: 35%;
+        line-height: 1;
+        pointer-events: none;
+        text-align: right;
+    }  
+    
+    .page-gradient {
+        background: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png") no-repeat; 
+        background-position: 0 0;
+        background-size: cover;
+        bottom: 8rem;
+        left: 0.9rem; 
+        mix-blend-mode: lighten;
+        pointer-events: none;
+        position: absolute;
+        right:25rem;
+        top: 6.6rem;
+    }    
+    
+    .cover-date p {
+        position: relative;
+        bottom: 11rem;
+        left: 43rem;
+        font-size: 1rem;
+        display: inline-block;
+    } 
+    
+    .group-one a{
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    .cover-page header {
+        padding-left: 1rem;
+        margin-top: 2rem;
+    }
+    
+    .cover-page header h5 {
+     font-size: 1.5rem;
+    } 
+    
+    .cover-page header h2 {
+        font-size: 2.8rem;
+    }
+    .cover-page ul{
+     margin-top: 6.4rem;
+    }
+    .cover-page ul li,
+    .side1 ul li,
+    .side2 ul li {
+        list-style-type: none;
+        display: inline-block;
+        padding: 0.2rem;
+    }
+    .cover-authour{
+        padding-right: 0.3rem;
+    }
+    
+    .side-page1,
+    .side-page2 {
+     background-color: #000;
+     background-size: cover;
+     background-position: 50%; 
+     color: #fff;
+     width: 100%;
+     height: 15rem;
+    }
+    
+    .side-page1 {
+     margin-bottom: 0.6rem;
+     background:linear-gradient(0deg, rgba(17, 17, 17, 0.192), rgba(17, 17, 17, 0.2)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Untitled-design45-796x417.png");
+    }
+    
+    .side1 p{
+     padding: 5rem 0.8rem 0 0.8rem;
+    }
+    
+    .side1 p,
+    .side2 p{
+        font-size: 1.8rem;
+        padding-left: 0.8rem;
+    }   
+    
+    .side1 ul,
+    .side2 ul {
+        padding-left: 0.8rem;
+    }
+    .side1 ul {
+        margin-top: 1.5rem;
+    }
+    .side2 ul {
+        margin-top: 4.4rem; 
+    }
+    
+    .side-page2 {
+        background:linear-gradient(0deg, rgba(17, 17, 17, 0.192), rgba(17, 17, 17, 0.2)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/1-1-796x417.jpg");
+    }
+    
+    .side2 .side2-title {
+        font-size: 1.1rem;
+        padding-top: 2rem;
+    }
+    
+    .article-group-two {
+        display: grid; 
+        grid-template-columns: repeat(4, 1fr); 
+        grid-column-gap: 1rem;
+        grid-row-gap: 2rem;
+    }
+    
+    .group-two,
+    .group-three,
+    .group-four,
+    .group-five {
+        margin: 5rem 4rem 0 4rem;
+    }
+    .group-two h2{
+        margin-bottom: 1.6rem;
+        color: #ff0000;
+        font-size: 2rem;
+    }
+    .column-box{
+     text-align: left;
+    }
+    
+    .column-box img,
+    .img-extract img{
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+    .column-box a{
+        text-decoration: none;
+        color: #000;
+        font-size: 1.2rem;
+    }
+    .column-box h3{
+        padding-top: 0.8rem;
+        padding-bottom: 0.6rem;
+    }
+    .column-box span a{
+      font-size: 1rem; 
+      color: #b3cbcb; 
+    }
+    .section-3-heading {
+        display: flex;
+        justify-content: space-between;
+    }
+    .section-3-heading a{
+        text-decoration: none;
+        color: #ff0000;
+    }
+    .section-3-heading ul li{
+       display: inline-block;
+       list-style-type: none;
+       padding: 0 0.6rem;
+       margin-top: 0.3rem;
+       font-size: 1.1rem;
+    } 
+    
+    .section-3-heading h2{
+      font-size: 1.8rem;
+      color: #ff0000;
+    }
+    .section-3-heading ul li:nth-child(2){
+       border-left: 1px solid #ff0000;
+       border-right: 1px solid #ff0000;
+       line-height: 0.7rem;
+    }
+    .image-group3-box {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-column-gap: 1rem;
+        margin-top: 1.8rem;
+    }
+    .img-extract .img3{
+        padding-left: 2.9rem;
+    } 
+    
+    .img-extract a{
+      text-decoration: none;
+      color: #141f1f;
+      font-size: 0.9rem;
+    }
+    .img-extract i {
+        margin: 0.6rem 1rem 0 0.9rem;
+    }
+    .img-group3 {
+        background-color:hsla(12, 100%, 95%, 0.3);
+    }
+    .img-extract hr{
+        margin: 1.2rem 0;
+        height: 1px;
+        background-color: hsl(0, 82%, 58%);
+        border: none;
+    }
+    .img-extract span{
+        font-size: 0.8rem;
+        color: #94b8b8;
+    }
+    
+    .img3-pad{
+      padding: 0 1.5rem 2rem 1.5rem;
+    }
+    .group-four {
+        display: grid; 
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 2rem;
+    }
+    .group4-box1,
+    .group4-box2,
+    .group4-box3,
+    .group4-box4,
+    .group4-box5,
+    .group4-box6,
+    .group4-box7,
+    .group4-box8 {
+     background-color: #000;
+     background-size: cover;
+     background-position: 50%; 
+     color: #fff;
+     width: 100%;
+    }
+    
+    .group4-smallimg {
+        width: 10rem;
+        min-height: 6rem;
+    }  
+    .group4-smallimg img{
+      width: 100%;
+      height: 100%;
+      display:block;
+    }
+    
+    .group4-title {
+        font-size: 1.1rem;
+        display: flex;
+    }
+    
+    .group4-title a{
+        text-decoration: none; 
+        color: #ff0000;
+    }
+    
+    .group4-title i{
+        font-size: 1.6rem;
+        color: #ff0000;
+        margin: 0 0 1rem 0.4rem;
+        padding-top: 0.3rem;
+    }
+    
+    .group4-box1{
+    background:linear-gradient(0deg, rgba(17, 17, 17, 0.192), rgba(17, 17, 17, 0.2)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Messenger-Desktop-368x276.jpg");
+    min-height: 17.2rem;
+    padding: 0 0.5rem;   
+    }
+    
+    .group4-box2 {
+        background:linear-gradient(0deg, rgba(17, 17, 17, 0.192), rgba(17, 17, 17, 0.2)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/04/Intel-Core-i9-hed-368x276.jpg");
+        min-height: 17.2rem;
+        padding: 0 0.5rem;    
+    }
+    .group4-box3 {
+        background:linear-gradient(0deg, rgba(17, 17, 17, 0.192), rgba(17, 17, 17, 0.2)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/05/Neighbourly-hed-368x276.jpg");
+        min-height: 17.2rem;
+        padding: 0 0.5rem; 
+    }
+    
+    .group4-box4  {
+        background:linear-gradient(0deg, rgba(17, 17, 17, 0.192), rgba(17, 17, 17, 0.2)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/fleet-ops-computers-368x276.png");
+        min-height: 17.2rem;
+        padding: 0 0.5rem; 
+    }
+    
+    .group4-box5  {
+        background:linear-gradient(0deg, rgba(17, 17, 17, 0.192), rgba(17, 17, 17, 0.2)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/digital-fingerprint-368x276.png");
+        min-height: 17.2rem;
+        padding: 0 0.5rem; 
+    }
+    .group4-box6 {
+        background:linear-gradient(0deg, rgba(17, 17, 17, 0.192), rgba(17, 17, 17, 0.2)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/crack-368x276.png");
+        min-height: 17.2rem;
+        padding: 0 0.5rem; 
+    }
+    .group4-box7 {
+        background:linear-gradient(0deg, rgba(17, 17, 17, 0.192), rgba(17, 17, 17, 0.2)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Google-coronavirus-portal-368x276.jpg");
+        min-height: 17.2rem;
+        padding: 0 0.5rem; 
+    }
+    .group4-box8 {
+        background:linear-gradient(0deg, rgba(17, 17, 17, 0.192), rgba(17, 17, 17, 0.2)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/facebook-368x276.png");
+        min-height: 17.2rem;
+        padding: 0 0.5rem; 
+    }
+    .group-four header h5{
+        padding-top: 12rem;
+    }
+    .group-four header a{
+      text-decoration: none;
+      color: #fff;
+    }
+    
+    .group-four header span,
+    .group-four header span p{
+        color:#94b8b8; 
+        font-size: 0.8rem;
+        padding-top: 0.2rem;
+    }
+    .group4-textbox {
+        display: flex;
+        background-color:hsla(12, 100%, 95%, 0.5);
+        min-height: 5rem;
+    }
+    
+    .group4-titlebox {
+      margin:  1.2rem 0 1.2rem 0.5rem;
+    }
+    
+    .group4-titlebox h4{
+      color: #ff471a;
+    }
+    
+    .group4-titlebox a{
+      text-decoration: none;
+      color: #ff0000;
+    }
+    
+    .group-four ul a{
+      text-decoration: none;
+      color: #141f1f;
+      font-size: 0.9rem;
+      line-height: 1.3rem;
+      padding-left: 0.4rem;
+    
+    }
+    
+    .group-four ul li{
+        padding: 0.3rem 0;
+        border-bottom: 1px solid #d1e0e0;
+        list-style-type: none;
+    }
+    .group-four ul i{
+      font-size: 0.3rem;
+      color:#ff5c33;
+    }
+    
+    .group-five-title {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 2rem;
+    }
+    
+    .group-five-title a,
+    .group-five-title i{
+       text-decoration: none; 
+       color:#ff0000; 
+    }
+    .group-five-container {
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     grid-gap: 2rem;
+    }
+    .group-five-title h3{
+      font-size: 1.8rem;
+    }
+    .group-five-title h5 {
+        font-size: 1rem;
+    }
+    
+    .caption-5 a{
+      text-decoration: none;
+      color: #000;
+    }
+    
+    .caption-5 a:hover{
+       text-decoration: underline;
+       color: #ff0000;
+    }
+    .caption-5 h4{
+        margin-top: 0.5rem;
+    } 
+    
+    .caption-5 .old-price{
+        font-size: 0.9rem;
+        color: #a5c0c0;
+        text-decoration: line-through;
+    }
+    
+    .caption-5 .current-price{
+        margin-left: 0.4rem;
+        font-size: 1.2rem;
+    }
+    
+    footer {
+        margin-top: 3rem;
+    }
+    
+    footer .top-section{
+      background-color: rgba(0, 0, 0, 0.925);
+      width: 100%;
+      height: 10rem;
+    }
+    
+    footer .bottom-section{
+        width: 100%;
+        height: 7rem; 
+        background-color: rgba(0, 0, 0);
+    }
+    
+    .social-icon{
+        width: 2.7rem;
+        height: 2.7rem;
+        padding: 0.8rem;
+        background: #96999949;
+        border-radius: 50%;
+    }
+    footer .fa-facebook{
+       color: #000;
+       background-color: #fff;
+       width: 1.5rem;
+       height: 1.2rem;
+       padding-top: 0.4rem;
+       padding-left: 0.5rem;
+       font-size: 0.8rem;
+       text-decoration: none;
+    }
+    
+    footer .fb{
+        color: #fff;
+        font-size: 1.2rem;
+        text-decoration: none; 
+    }
+    
+    .footer-list-a li{
+        padding: 0 0.4rem;
+        list-style: none;
+    } 
+     .footer-list-a {
+        padding-top: 2.6rem; 
+     }
+     .footer-list-b{
+        padding-top: 1.6rem; 
+     }
+     .footer-list-b a{
+         text-decoration: none;
+         color: #fff;
+         font-size: 0.8rem;
+     }
+     .footer-list-b li{
+        padding: 0 0.2rem;
+        list-style: none;
+     }
+    
+    .top-section ul{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .footnote {
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        padding-top: 3rem;
+    }
+     .footnote a{
+      padding-top: 0.2rem;
+      padding-left: 0.4rem;
+    }
+    .footnote span{
+     font-size: 0.7rem;
+     color: #ff0000;
+     padding: 0 0.3rem;
+    }
+    
+    .footnote .small-logo{
+        width: 3rem;
+        height: 2rem;
+        padding-right: 0.4rem;
+        padding-bottom: 1.3rem;
+    }
+    .footnote .stackpath-logo{
+        width: 5rem;
+        height: 3rem;
+        padding-bottom: 2.2rem;
+    }
 
 /* media query: min-width: 320px*/
 
-@media only screen and (min-width: 320px)and (max-width: 479px) {
+/* @media only screen and (min-width: 320px)and (max-width: 479px)  */
+@media only screen and (min-width: 320px){
+
     .navgroup-one {
         height: 6rem;
         display: flex;
@@ -582,140 +769,4 @@ footer .fb{
         height: 5rem;
         font-size: 0.7rem;
         text-align: left;
-        padding: 0.4rem;
-    }
-     .fa-search {
-      padding-right: 0.5rem;
-      float: right;
-    } 
-    .tech-festival {
-        font-size: 0.8rem;
-        text-align: left;
-        padding-left: 0.3rem;
-    }
-    .article-group-one {
-        display: grid;
-        grid-template-columns: 1fr;
-    } 
-    .cover-page {
-        width: 100%;
-        height: 15rem;
-    }
-    .cover-page header h5{
-        font-size: 1.3rem;
-    }
-    .cover-page header h2{
-        font-size: 1.8rem;
-    }
-    .cover-date p {
-        bottom: 3rem;
-        left: 1rem;
-    }
-
-    .page-gradient {
-        bottom: 0rem; 
-        position: absolute;
-        right:0.8rem;
-        top: 13rem;
-    } 
-
-    .side-article-box {
-        margin-top: 0.8rem;
-    }
-     .side1 p,
-     .side2 p{
-    font-size: 1.2rem;
-     } 
-
-    .group-two,
-    .group-three {
-        margin: 1rem;
-    }
-
-    .article-group-two {
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-    .group-two-side h3 a{
-        font-size: 1rem;
-    }  
-    .group-two-side {
-     padding-left: 0.8rem;
-    } 
-    
-    .column-box {
-    display: grid;
-    grid-template-columns: 0.4fr 1.2fr;
-    }
-
-    .section-3-heading {
-        display: flex;
-        flex-direction: column;
-    }
-    .section-3-heading ul li{
-        display: block;
-        padding: 0;
-    }
-    .section-3-heading ul li:nth-child(2){
-        border: none;
-     }
-
-     .image-group3-box {
-        display: grid;
-        grid-template-columns: 1fr;
-     }
-     .img-group3 {
-         margin-bottom: 3rem;
-     }
-     .group-four {
-        display: grid;
-        grid-template-columns: 1fr;
-        margin: 1rem;  
-     }
-
-     .group-five-container {
-        display: grid;
-        grid-template-columns: 1fr;  
-     }
-
-    .group-five {
-        margin: 1rem; 
-    }
-
-    .group5-imgbox{
-        display: grid;
-        grid-template-columns: 0.6fr 1.2fr; 
-    }
-
-    .caption-5 {
-     padding-left:1rem;
-    }
-
-     .footnote {
-      padding: 2rem;
-     }
-
-    .social-icon {
-        width: 2.2rem;
-        height: 2.2rem;
-        padding: 0.4rem;
-        border-radius: 50%;
-     }
-
-     .footer-list-a .fb{
-        padding: 0 0.13rem;  
-    } 
-    
-}
-@media only screen and (min-width: 480px)and (max-width: 768px) {
- 
-
-}
-
-
- 
-
-
-
-
-
+     
