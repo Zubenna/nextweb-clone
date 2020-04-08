@@ -208,6 +208,21 @@ height: 3rem;
   color: #b3cbcb; 
 }
 
+.group-two-side a:hover {
+   text-decoration: underline;
+   color: #ff0000;
+}
+
+.group-two h2:hover,
+.section-3-heading a:hover,
+.section-3-heading ul a:hover,
+.group4-title a:hover, 
+.group4-title i:hover,
+.group-five-title a:hover,
+.group-five-title i:hover {
+    color: #000;
+}
+
 .section-3-heading {
     display: flex;
     justify-content: space-between;
@@ -973,6 +988,14 @@ footer .fb {
     .group-five-container {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
+    }
+
+    .section-3-heading {
+            flex-direction: row;
+    }
+
+    .section-3-heading ul li {
+        display: inline-block;
     }
 
     .img-hidden {
