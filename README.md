@@ -21,7 +21,7 @@ This project is a clone of thenextweb.com [thenextweb.com](https://thenextweb.co
 - CSS Grid
 
 ## Live Demo
-[Live Demo Link](https://rawcdn.githack.com/Zubenna/apple-website-clone/19e847eb15928005924912f130cfba43bff3e8b3/index.html) hosted on [githack](https://raw.githack.com)
+[Live Demo Link](https://rawcdn.githack.com/Zubenna/nextweb-clone/391d7957c3b47d85f08611142194375394622c6e/index.html) hosted on [githack](https://raw.githack.com)
 
 ## CDNs
 - https://fontawesome.com/icons

@@ -29,7 +29,6 @@
 
 .navgroup-two {
 height: 3rem;
-
 }
 
 .navgroup-two li {
@@ -432,7 +431,6 @@ padding: 0 0.5rem;
   font-size: 0.9rem;
   line-height: 1.3rem;
   padding-left: 0.4rem;
-
 }
 
 .group-four ul li {
@@ -799,8 +797,7 @@ footer .fb {
 
     .footnote span {         
         padding: 0;
-    }
-    
+    } 
 }
 /* media query: min-width: 768px*/
  @media only screen and (min-width: 768px) {
@@ -871,6 +868,7 @@ footer .fb {
     .side-page1 {
          margin-top: 2.5rem; 
     }
+
     .side1-detail {
         padding-top: 2rem;
     }
@@ -925,7 +923,6 @@ footer .fb {
      display: grid;
      grid-template-columns: 1fr 1fr;
     }
-
 }
 /* media query: min-width: 1024px*/
 @media only screen and (min-width: 1024px) {
@@ -1024,8 +1021,7 @@ footer .fb {
 .group-four, 
 .group-five {
     margin: 5rem 4rem 0 4rem;
-}
-
+   }
 }
    
  
