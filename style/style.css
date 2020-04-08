@@ -67,7 +67,7 @@ height: 3rem;
 } 
 
 .cover-page {
-    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/coronavirus-china-app-796x448.jpg");
+    background: linear-gradient(to bottom right, rgba(255,0,0,1), rgba(255,0,0,0.01)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/coronavirus-china-app-796x448.jpg");
     background-color: #000;
     background-size: cover; 
     background-position: 50%; 
@@ -76,19 +76,6 @@ height: 3rem;
     margin-right: 0.5rem;
     width: 99%;
 }
-
-.page-gradient {
-    background: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png") no-repeat; 
-    background-position: 0 0;
-    background-size: cover;
-    bottom: 0; 
-    left: 0.9rem; 
-    mix-blend-mode: lighten;
-    pointer-events: none;
-    position: absolute;
-    right:24.8rem;
-    top: 7.2rem;  
-} 
 
 .page-logo{
     background: transparent url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg") no-repeat;
@@ -146,12 +133,7 @@ height: 3rem;
 
 .side-page1 {
  margin-bottom: 0.6rem;
- padding-top: 2.5rem;
  background:linear-gradient(0deg, rgba(17, 17, 17, 0.192), rgba(17, 17, 17, 0.2)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Untitled-design45-796x417.png");
-}
-
-.side1 p{
- padding: 2rem 0.8rem 0 0.8rem;
 }
 
 .side1 p,
@@ -167,9 +149,6 @@ height: 3rem;
 .side1 ul {
     margin-top: 1rem;
 }
-.side2 ul {
-    padding-top: 7.4rem; 
-}
 
 .side-page2 {
     background:linear-gradient(0deg, rgba(17, 17, 17, 0.192), rgba(17, 17, 17, 0.2)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/1-1-796x417.jpg");
@@ -177,7 +156,6 @@ height: 3rem;
 
 .side2 .side2-title {
     font-size: 1.1rem;
-    padding-top: 5rem;
 }
 
 .article-group-two {
@@ -637,6 +615,9 @@ footer .fb{
     .side1-detail {
         padding: 4rem 1rem 0 1rem;
     }
+    .side2 ul{
+        padding-top: 3rem;
+    }
 
     .side2-detail {
         display: flex; 
@@ -651,9 +632,6 @@ footer .fb{
         font-size: 1.4rem;  
     } 
 
-    .page-gradient {
-        visibility: hidden;
-    } 
     .side-page1,
     .side-page2{
      height: 11rem;
@@ -664,7 +642,8 @@ footer .fb{
     }
 
     .group-two,
-    .group-three {
+    .group-three,
+    .group-four {
         margin: 1rem;
     }
 
@@ -802,7 +781,7 @@ footer .fb{
     .tech-festival {
         top: 5rem;
         height: 2.2rem;
-        font-size: 1rem; 
+        font-size: 1.2rem; 
         text-align: left;
         padding: 0.5rem 0.3rem 0 0.3rem;
     } 
@@ -817,9 +796,12 @@ footer .fb{
     }
 
     .side-page1 {
-        margin-top: 4.5rem;
+         margin-top: 2.5rem; 
     }
-
+    .side1-detail {
+        padding-top: 2rem;
+    }
+   
     .cover-page ul{
         margin-top: 3rem;
     }
@@ -828,9 +810,7 @@ footer .fb{
         margin-top: 1.2rem;
         font-size: 1.4rem;
     }
-    .side1-detail {
-        padding-top: 3rem;
-    }
+
     .article-group-two,
     .image-group3-box,
     .group-five-container {
@@ -887,7 +867,6 @@ footer .fb{
     }
     
     .page-logo, 
-    .page-gradient,
     .cover-date p {
         visibility: visible;
     } 
@@ -895,8 +874,9 @@ footer .fb{
     .cover-date p {
         position: relative;
         bottom: 11rem;
-        left: 43rem;
+        left: 70%;
         font-size: 1rem;
+        display: inline-block;
     } 
 
     .cover-page {
@@ -911,6 +891,11 @@ footer .fb{
     .cover-page header h5 {     
         margin-top: 5rem;
         font-size: 1.5rem;
+    }
+    
+    .side1,
+    .side2{
+      padding-top: 3rem;
     }
     .side-page1,
     .side-page2 {
