@@ -19,14 +19,6 @@
   list-style: none;
 }
 
-.cover-page ul li,
-.side1 ul li,
-.side2 ul li {
-  list-style-type: none;
-  display: inline-block;
-  padding: 0.2rem;
-}
-
 .navgroup-two li {
   list-style-type: none;
   display: inline-block;
@@ -35,6 +27,14 @@
   background-color: #fff;
   padding-top: 1.1rem;
   color: #94b8b8;
+}
+
+.cover-page ul li,
+.side1 ul li,
+.side2 ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0.2rem;
 }
 
 .navgroup-one .left-menu li,
@@ -122,6 +122,12 @@
   font-size: 1.5rem;
 }
 
+.group-two h2 {
+  margin-bottom: 1.6rem;
+  color: #f00;
+  font-size: 2rem;
+}
+
 .cover-page header h2 {
   font-size: 2.8rem;
 }
@@ -179,12 +185,6 @@
   grid-row-gap: 2rem;
 }
 
-.group-two h2 {
-  margin-bottom: 1.6rem;
-  color: #f00;
-  font-size: 2rem;
-}
-
 .column-box {
   text-align: left;
 }
@@ -230,10 +230,10 @@
 
 .group-two h2:hover,
 .group4-title a:hover,
+.group-five-title a:hover,
 .section-3-heading a:hover,
 .section-3-heading ul a:hover,
 .group4-title i:hover,
-.group-five-title a:hover,
 .group-five-title i:hover {
   color: #000;
 }
@@ -717,12 +717,12 @@ footer .fb {
 
   .group-two-side h3 a {
     font-size: 1rem;
-}
+  }
 
   .group-two-side {
     padding-left: 0.8rem;
   }
- 
+
   .column-box {
     display: grid;
     grid-template-columns: 0.4fr 1.2fr;
@@ -791,7 +791,7 @@ footer .fb {
     padding: 0.4rem;
     border-radius: 50%;
   }
- 
+
   .footer-list-a .fb {
     margin-left: 0;
   }
