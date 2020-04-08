@@ -325,45 +325,45 @@ height: 3rem;
 }
 
 .group4-box1{
-background:linear-gradient(0deg, rgba(17, 17, 17, 0.192), rgba(17, 17, 17, 0.2)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Messenger-Desktop-368x276.jpg");
+background:linear-gradient(180deg, rgba(243, 239, 239, 0.192), rgba(33, 28, 28, 0.945)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Messenger-Desktop-368x276.jpg");
 min-height: 17.2rem;
 padding: 0 0.5rem;   
 }
 
 .group4-box2 {
-    background:linear-gradient(0deg, rgba(17, 17, 17, 0.192), rgba(17, 17, 17, 0.2)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/04/Intel-Core-i9-hed-368x276.jpg");
+    background:linear-gradient(180deg, rgba(243, 239, 239, 0.192), rgba(33, 28, 28, 0.945)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/04/Intel-Core-i9-hed-368x276.jpg");
     min-height: 17.2rem;
     padding: 0 0.5rem;    
 }
 .group4-box3 {
-    background:linear-gradient(0deg, rgba(17, 17, 17, 0.192), rgba(17, 17, 17, 0.2)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/05/Neighbourly-hed-368x276.jpg");
+    background:linear-gradient(180deg, rgba(243, 239, 239, 0.192), rgba(33, 28, 28, 0.945)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/05/Neighbourly-hed-368x276.jpg");
     min-height: 17.2rem;
     padding: 0 0.5rem; 
 }
 
 .group4-box4  {
-    background:linear-gradient(0deg, rgba(17, 17, 17, 0.192), rgba(17, 17, 17, 0.2)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/fleet-ops-computers-368x276.png");
+    background:linear-gradient(180deg, rgba(243, 239, 239, 0.192), rgba(33, 28, 28, 0.945)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/fleet-ops-computers-368x276.png");
     min-height: 17.2rem;
     padding: 0 0.5rem; 
 }
 
 .group4-box5  {
-    background:linear-gradient(0deg, rgba(17, 17, 17, 0.192), rgba(17, 17, 17, 0.2)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/digital-fingerprint-368x276.png");
+    background:linear-gradient(180deg, rgba(243, 239, 239, 0.192), rgba(33, 28, 28, 0.945)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/digital-fingerprint-368x276.png");
     min-height: 17.2rem;
     padding: 0 0.5rem; 
 }
 .group4-box6 {
-    background:linear-gradient(0deg, rgba(17, 17, 17, 0.192), rgba(17, 17, 17, 0.2)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/crack-368x276.png");
+    background:linear-gradient(180deg, rgba(243, 239, 239, 0.192), rgba(33, 28, 28, 0.945)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/crack-368x276.png");
     min-height: 17.2rem;
     padding: 0 0.5rem; 
 }
 .group4-box7 {
-    background:linear-gradient(0deg, rgba(17, 17, 17, 0.192), rgba(17, 17, 17, 0.2)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Google-coronavirus-portal-368x276.jpg");
+    background:linear-gradient(180deg, rgba(243, 239, 239, 0.192), rgba(33, 28, 28, 0.945)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Google-coronavirus-portal-368x276.jpg");
     min-height: 17.2rem;
     padding: 0 0.5rem; 
 }
 .group4-box8 {
-    background:linear-gradient(0deg, rgba(17, 17, 17, 0.192), rgba(17, 17, 17, 0.2)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/facebook-368x276.png");
+    background:linear-gradient(180deg, rgba(243, 239, 239, 0.192), rgba(33, 28, 28, 0.945)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/facebook-368x276.png");
     min-height: 17.2rem;
     padding: 0 0.5rem; 
 }
@@ -707,7 +707,13 @@ footer .fb{
         display: flex;
         flex-direction: column;
      }
-     
+     .background-cover{
+       width: 100%;
+       height: auto;
+       background-repeat: no-repeat;
+       background-size: cover;
+     } 
+
      .group-five-container {
         display: grid;
         grid-template-columns: 1fr;  
