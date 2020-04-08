@@ -21,7 +21,7 @@
     padding: 0.2rem;
 }
 
-.navgroup-one .left-menu li select{
+.navgroup-one .left-menu li select {
     background-color: inherit;
     color: inherit;
     border: none;
@@ -29,6 +29,7 @@
 
 .navgroup-two {
 height: 3rem;
+
 }
 
 .navgroup-two li {
@@ -48,6 +49,7 @@ height: 3rem;
     padding: 1.1rem 0 0 1.1rem;
     border-left: 0.01rem solid #e1eaea;
 }
+
 .tech-festival {
     height: 2rem;
     background-color: #ffdb4d;
@@ -66,6 +68,10 @@ height: 3rem;
     margin: 0 0.8rem; 
 } 
 
+.hide-title {
+    display: none;
+}
+
 .cover-page {
     background: linear-gradient(to bottom right, rgba(255,0,0,1), rgba(255,0,0,0.01)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/coronavirus-china-app-796x448.jpg");
     background-color: #000;
@@ -77,7 +83,7 @@ height: 3rem;
     width: 99%;
 }
 
-.page-logo{
+.page-logo {
     background: transparent url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg") no-repeat;
     background-size: contain;
     margin-top: 2.4rem;
@@ -90,7 +96,7 @@ height: 3rem;
     z-index: 4;
 }  
 
-.group-one a{
+.group-one a {
     text-decoration: none;
     color: #fff;
 }
@@ -107,9 +113,11 @@ height: 3rem;
 .cover-page header h2 {
     font-size: 2.8rem;
 }
-.cover-page ul{
+
+.cover-page ul {
  margin-top: 6.4rem;
 }
+
 .cover-page ul li,
 .side1 ul li,
 .side2 ul li {
@@ -117,7 +125,8 @@ height: 3rem;
     display: inline-block;
     padding: 0.2rem;
 }
-.cover-authour{
+
+.cover-authour {
     padding-right: 0.3rem;
 }
 
@@ -146,6 +155,7 @@ height: 3rem;
 .side2 ul {
     padding-left: 0.8rem;
 }
+
 .side1 ul {
     margin-top: 1rem;
 }
@@ -165,44 +175,50 @@ height: 3rem;
     grid-row-gap: 2rem;
 }
 
-
-.group-two h2{
+.group-two h2 {
     margin-bottom: 1.6rem;
     color: #ff0000;
     font-size: 2rem;
 }
-.column-box{
+
+.column-box {
  text-align: left;
 }
 
 .column-box img,
-.img-extract img{
+.img-extract img {
     width: 100%;
     height: 100%;
     display: block;
 }
-.column-box a{
+
+.column-box a {
     text-decoration: none;
     color: #000;
     font-size: 1.2rem;
 }
-.column-box h3{
+
+.column-box h3 {
     padding-top: 0.8rem;
     padding-bottom: 0.6rem;
 }
-.column-box span a{
+
+.column-box span a {
   font-size: 1rem; 
   color: #b3cbcb; 
 }
+
 .section-3-heading {
     display: flex;
     justify-content: space-between;
 }
-.section-3-heading a{
+
+.section-3-heading a {
     text-decoration: none;
     color: #ff0000;
 }
-.section-3-heading ul li{
+
+.section-3-heading ul li {
    display: inline-block;
    list-style-type: none;
    padding: 0 0.6rem;
@@ -210,55 +226,64 @@ height: 3rem;
    font-size: 1.1rem;
 } 
 
-.section-3-heading h2{
+.section-3-heading h2 {
   font-size: 1.8rem;
   color: #ff0000;
 }
-.section-3-heading ul li:nth-child(2){
+
+.section-3-heading ul li:nth-child(2) {
    border-left: 1px solid #ff0000;
    border-right: 1px solid #ff0000;
    line-height: 0.7rem;
 }
+
 .image-group3-box {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-column-gap: 1rem;
     margin-top: 1.8rem;
 }
-.img-extract .img3{
+
+.img-extract .img3 {
     padding-left: 2.9rem;
 } 
 
-.img-extract a{
+.img-extract a {
   text-decoration: none;
   color: #141f1f;
   font-size: 0.9rem;
 }
+
 .img-extract i {
     margin: 0.6rem 1rem 0 0.9rem;
 }
+
 .img-group3 {
     background-color:hsla(12, 100%, 95%, 0.3);
 }
-.img-extract hr{
+
+.img-extract hr {
     margin: 1.2rem 0;
     height: 1px;
     background-color: hsl(0, 82%, 58%);
     border: none;
 }
-.img-extract span{
+
+.img-extract span {
     font-size: 0.8rem;
     color: #94b8b8;
 }
 
-.img3-pad{
+.img3-pad {
   padding: 0 1.5rem 2rem 1.5rem;
 }
+
 .group-four {
     display: grid; 
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 2rem;
 }
+
 .group4-box1,
 .group4-box2,
 .group4-box3,
@@ -279,7 +304,8 @@ height: 3rem;
     width: 10rem;
     min-height: 6rem;
 }  
-.group4-smallimg img{
+
+.group4-smallimg img {
   width: 100%;
   height: 100%;
   display:block;
@@ -290,19 +316,19 @@ height: 3rem;
     display: flex;
 }
 
-.group4-title a{
+.group4-title a {
     text-decoration: none; 
     color: #ff0000;
 }
 
-.group4-title i{
+.group4-title i {
     font-size: 1.6rem;
     color: #ff0000;
     margin: 0 0 1rem 0.4rem;
     padding-top: 0.3rem;
 }
 
-.group4-box1{
+.group4-box1 {
 background:linear-gradient(180deg, rgba(243, 239, 239, 0.192), rgba(33, 28, 28, 0.945)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Messenger-Desktop-368x276.jpg");
 min-height: 17.2rem;
 padding: 0 0.5rem;   
@@ -313,6 +339,7 @@ padding: 0 0.5rem;
     min-height: 17.2rem;
     padding: 0 0.5rem;    
 }
+
 .group4-box3 {
     background:linear-gradient(180deg, rgba(243, 239, 239, 0.192), rgba(33, 28, 28, 0.945)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/05/Neighbourly-hed-368x276.jpg");
     min-height: 17.2rem;
@@ -330,35 +357,41 @@ padding: 0 0.5rem;
     min-height: 17.2rem;
     padding: 0 0.5rem; 
 }
+
 .group4-box6 {
     background:linear-gradient(180deg, rgba(243, 239, 239, 0.192), rgba(33, 28, 28, 0.945)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/crack-368x276.png");
     min-height: 17.2rem;
     padding: 0 0.5rem; 
 }
+
 .group4-box7 {
     background:linear-gradient(180deg, rgba(243, 239, 239, 0.192), rgba(33, 28, 28, 0.945)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Google-coronavirus-portal-368x276.jpg");
     min-height: 17.2rem;
     padding: 0 0.5rem; 
 }
+
 .group4-box8 {
     background:linear-gradient(180deg, rgba(243, 239, 239, 0.192), rgba(33, 28, 28, 0.945)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/facebook-368x276.png");
     min-height: 17.2rem;
     padding: 0 0.5rem; 
 }
-.group-four header h5{
+
+.group-four header h5 {
     padding-top: 12rem;
 }
-.group-four header a{
+
+.group-four header a {
   text-decoration: none;
   color: #fff;
 }
 
 .group-four header span,
-.group-four header span p{
+.group-four header span p {
     color:#94b8b8; 
     font-size: 0.8rem;
     padding-top: 0.2rem;
 }
+
 .group4-textbox {
     display: flex;
     background-color:hsla(12, 100%, 95%, 0.5);
@@ -369,16 +402,16 @@ padding: 0 0.5rem;
   margin:  1.2rem 0 1.2rem 0.5rem;
 }
 
-.group4-titlebox h4{
+.group4-titlebox h4 {
   color: #ff471a;
 }
 
-.group4-titlebox a{
+.group4-titlebox a {
   text-decoration: none;
   color: #ff0000;
 }
 
-.group-four ul a{
+.group-four ul a {
   text-decoration: none;
   color: #141f1f;
   font-size: 0.9rem;
@@ -387,12 +420,13 @@ padding: 0 0.5rem;
 
 }
 
-.group-four ul li{
+.group-four ul li {
     padding: 0.3rem 0;
     border-bottom: 1px solid #d1e0e0;
     list-style-type: none;
 }
-.group-four ul i{
+
+.group-four ul i {
   font-size: 0.3rem;
   color:#ff5c33;
 }
@@ -404,42 +438,45 @@ padding: 0 0.5rem;
 }
 
 .group-five-title a,
-.group-five-title i{
+.group-five-title i {
    text-decoration: none; 
    color:#ff0000; 
 }
+
 .group-five-container {
  display: grid;
  grid-template-columns: repeat(4, 1fr);
  grid-gap: 2rem;
 }
-.group-five-title h3{
+
+.group-five-title h3 {
   font-size: 1.8rem;
 }
+
 .group-five-title h5 {
     font-size: 1rem;
 }
 
-.caption-5 a{
+.caption-5 a {
   text-decoration: none;
   color: #000;
 }
 
-.caption-5 a:hover{
+.caption-5 a:hover {
    text-decoration: underline;
    color: #ff0000;
 }
-.caption-5 h4{
+.caption-5 h4 {
     margin-top: 0.5rem;
 } 
 
-.caption-5 .old-price{
+.caption-5 .old-price {
     font-size: 0.9rem;
     color: #a5c0c0;
     text-decoration: line-through;
 }
 
-.caption-5 .current-price{
+.caption-5 .current-price {
     margin-left: 0.4rem;
     font-size: 1.2rem;
 }
@@ -448,26 +485,27 @@ footer {
     margin-top: 3rem;
 }
 
-footer .top-section{
+footer .top-section {
   background-color: rgba(0, 0, 0, 0.925);
   width: 100%;
   height: 10rem;
 }
 
-footer .bottom-section{
+footer .bottom-section {
     width: 100%;
     height: 7rem; 
     background-color: rgba(0, 0, 0);
 }
 
-.social-icon{
+.social-icon {
     width: 2.7rem;
     height: 2.7rem;
     padding: 0.8rem;
     background: #96999949;
     border-radius: 50%;
 }
-footer .fa-facebook{
+
+footer .fa-facebook {
    color: #000;
    background-color: #fff;
    width: 1.5rem;
@@ -478,33 +516,37 @@ footer .fa-facebook{
    text-decoration: none;
 } 
 
-footer .fb{
+footer .fb {
     color: #fff;
     font-size: 1.2rem;
     text-decoration: none; 
 }
 
-.footer-list-a li{
+.footer-list-a li {
     padding: 0 0.4rem;
     list-style: none;
 } 
+
  .footer-list-a {
     padding-top: 2.6rem; 
  }
- .footer-list-b{
+
+ .footer-list-b {
     padding-top: 1.6rem; 
  }
- .footer-list-b a{
+
+ .footer-list-b a {
      text-decoration: none;
      color: #fff;
      font-size: 0.8rem;
  }
- .footer-list-b li{
+
+ .footer-list-b li {
     padding: 0 0.2rem;
     list-style: none;
  }
 
-.top-section ul{
+.top-section ul {
     display: flex;
     justify-content: center;
 }
@@ -515,23 +557,26 @@ footer .fb{
     justify-content: center;
     padding-top: 3rem;
 }
- .footnote a{
+
+ .footnote a {
   padding-top: 0.2rem;
   padding-left: 0.4rem;
 }
-.footnote span{
+
+.footnote span {
  font-size: 0.7rem;
  color: #ff0000;
  padding: 0 0.3rem;
 }
 
-.footnote .small-logo{
+.footnote .small-logo {
     width: 3rem;
     height: 2rem;
     padding-right: 0.4rem;
     padding-bottom: 1.3rem;
 }
-.footnote .stackpath-logo{
+
+.footnote .stackpath-logo {
     width: 5rem;
     height: 3rem;
     padding-bottom: 2.2rem;
@@ -539,21 +584,21 @@ footer .fb{
 
 /* media query: min-width: 320px*/
 
-@media only screen and (min-width: 320px){
-
+@media only screen and (min-width: 320px) {
     .navgroup-one {
         display: flex;
         position: relative;
         background-color: #fff;
     } 
     
-    .nav-logo img{
+    .nav-logo img {
         width: 19%;
         min-height: 8.5%;
         position: fixed;
         top: 0;
         left: 0;
     }
+
     .navgroup-two {
         font-size: 0.7rem;
         position: fixed;
@@ -562,7 +607,8 @@ footer .fb{
         width: 82%;
         background: #fff; 
     }
-    .navgroup-two i{
+
+    .navgroup-two .fa-search {
         font-size: 1rem;
         right: 2.2rem; 
         top: 0;
@@ -575,6 +621,7 @@ footer .fb{
       right: 0;
       top: 0;
     }
+
     .tech-festival {
         height: 3rem;
         font-size: 0.7rem;
@@ -585,6 +632,7 @@ footer .fb{
         top: 3rem;
         width: 100%;
     }
+
     .article-group-one {
         display: flex;
         flex-direction: column;
@@ -594,7 +642,7 @@ footer .fb{
     .left-menu,
     .right-menu,
     .cover-date p,
-    .navgroup-two li{
+    .hide-ul-title {
         visibility: hidden;
     }
 
@@ -603,7 +651,7 @@ footer .fb{
         margin-top: 4.5rem; 
     }
 
-    .cover-page ul{
+    .cover-page ul { 
         margin-top: 1rem;
     }
 
@@ -615,7 +663,8 @@ footer .fb{
     .side1-detail {
         padding: 4rem 1rem 0 1rem;
     }
-    .side2 ul{
+
+    .side2 ul {
         padding-top: 3rem;
     }
 
@@ -628,12 +677,12 @@ footer .fb{
 
     .cover-page header h2,
     .side1-detail a, 
-    .side2-detail span{ 
+    .side2-detail span { 
         font-size: 1.4rem;  
     } 
 
     .side-page1,
-    .side-page2{
+    .side-page2 {
      height: 11rem;
     } 
 
@@ -651,9 +700,11 @@ footer .fb{
         display: grid;
         grid-template-columns: 1fr;
     }
-    .group-two-side h3 a{
+
+    .group-two-side h3 a {
         font-size: 1rem;
-    }  
+    } 
+
     .group-two-side {
      padding-left: 0.8rem;
     } 
@@ -667,11 +718,13 @@ footer .fb{
         display: flex;
         flex-direction: column;
     }
-    .section-3-heading ul li{
+
+    .section-3-heading ul li {
         display: block;
         padding: 0;
     }
-    .section-3-heading ul li:nth-child(2){
+
+    .section-3-heading ul li:nth-child(2) {
         border: none;
      }
 
@@ -679,17 +732,19 @@ footer .fb{
         display: grid;
         grid-template-columns: 1fr;
      }
+
      .img-group3 {
          margin-bottom: 3rem;
      }
+
      .group-four {
         display: flex;
         flex-direction: column;
      }
-     .background-cover{
-       width: 100%;
-       height: auto;
+
+     .background-cover {
        background-repeat: no-repeat;
+       background-position: 100%;
        background-size: cover;
      } 
 
@@ -702,7 +757,7 @@ footer .fb{
         margin: 1rem; 
     }
 
-    .group5-imgbox{
+    .group5-imgbox {
         display: grid;
         grid-template-columns: 0.6fr 1.2fr; 
     }
@@ -723,17 +778,17 @@ footer .fb{
         border-radius: 50%;
      }
      
-     .footer-list-a .fb{
+     .footer-list-a .fb {
         margin-left: 0;  
     } 
-    .footnote span{        
+
+    .footnote span {         
         padding: 0;
     }
     
 }
 /* media query: min-width: 768px*/
  @media only screen and (min-width: 768px) {
-
     .page-tabs {
         display: flex;
         background-color: #000;
@@ -746,23 +801,25 @@ footer .fb{
     }
     
     .left-menu,
-    .right-menu{
+    .right-menu {
         color: #fff;
         visibility: visible;
         padding: 0.7rem 0.4rem 0 0.4rem;
         font-size: 0.9rem;
     }
 
-    .left-menu option{
+    .left-menu option {
         background-color: #000;
     }
 
     .menu-tab {
         display: none;
     }
+
     .nav-logo img{
        width: 18%;
     }
+
     .navgroup-two {
         height: 2.7rem;
         top: 2.3rem; 
@@ -773,7 +830,8 @@ footer .fb{
     .navgroup-two li {
         visibility: visible; 
     }
-    .navgroup-two i{
+
+    .navgroup-two .fa-search {
         top: 2.5rem;
         right: 0;
     }
@@ -802,7 +860,7 @@ footer .fb{
         padding-top: 2rem;
     }
    
-    .cover-page ul{
+    .cover-page ul {
         margin-top: 3rem;
     }
 
@@ -817,30 +875,37 @@ footer .fb{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
+
     .column-box,
     .group5-imgbox {
         display: flex;
         flex-direction: column;
     }
+
     .group-two-side,
     .caption-5 {
         text-align: left;
         padding: 0;
     }
-    .column-box img{
+
+    .column-box img {
        height: auto;
     }
-    .section-3-heading ul li{
+
+    .section-3-heading ul li {
       display: inline-block;
       padding: 0 0.4rem;
     }
-    .section-3-heading ul li:nth-child(2){
+
+    .section-3-heading ul li:nth-child(2) {
         border-left: 1px solid #ff0000; 
         border-right: 1px solid #ff0000; 
     }
-    .img-hidden{
+
+    .img-hidden {
         display: none;
     }
+
     .group-four {
      display: grid;
      grid-template-columns: 1fr 1fr;
@@ -849,14 +914,14 @@ footer .fb{
 }
 /* media query: min-width: 1024px*/
 @media only screen and (min-width: 1024px) {
-
-    .nav-logo img{
+    .nav-logo img {
        display: none;
     }
 
-    .page-tabs{
+    .page-tabs {
         width: 100%;
     }
+
     .navgroup-two {
         width: 100%;
         font-size: 1rem;
@@ -884,7 +949,7 @@ footer .fb{
         margin-top: 4.5rem;  
     }
 
-    .cover-page ul{
+    .cover-page ul {
         margin-top: 4rem;
     }
 
@@ -894,27 +959,30 @@ footer .fb{
     }
     
     .side1,
-    .side2{
+    .side2 {
       padding-top: 3rem;
     }
+
     .side-page1,
     .side-page2 {
         height: 15rem;
     }
+
     .article-group-two,
     .image-group3-box,
     .group-five-container {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
     }
-    .img-hidden{
+
+    .img-hidden {
         display: block;
     }
 
     .group-four {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-       }
+    }
 
        .social-icon {
         width: 2.7rem;
@@ -923,7 +991,7 @@ footer .fb{
         border-radius: 50%;
      }
      
-     .footer-list-a .fb{
+    .footer-list-a .fb {
     padding-left: 0.2rem;  
     padding-top: 0.1rem;
     }
@@ -934,6 +1002,7 @@ footer .fb{
 .group-five {
     margin: 5rem 4rem 0 4rem;
 }
+
 }
    
  
