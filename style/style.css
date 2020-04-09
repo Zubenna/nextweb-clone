@@ -252,11 +252,6 @@
   padding-left: 0.4rem;
 }
 
-.group-four header a {
-  text-decoration: none;
-  color: #fff;
-}
-
 .section-3-heading a {
   text-decoration: none;
   color: #f00;
@@ -273,10 +268,6 @@
   font-size: 0.9rem;
 }
 
-.img-extract i {
-  margin: 0.6rem 1rem 0 0.9rem;
-}
-
 .group4-titlebox a {
   text-decoration: none;
   color: #f00;
@@ -287,9 +278,26 @@
   color: #000;
 }
 
+.group-four header a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.img-extract i {
+  margin: 0.6rem 1rem 0 0.9rem;
+}
+
 .column-box span a {
   font-size: 1rem;
   color: #b3cbcb;
+}
+
+.group-four ul a {
+  text-decoration: none;
+  color: #141f1f;
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+  padding-left: 0.4rem;
 }
 
 .group-two-side a:hover {
@@ -302,14 +310,6 @@
   color: #f00;
   margin: 0 0 1rem 0.4rem;
   padding-top: 0.3rem;
-}
-
-.group-four ul a {
-  text-decoration: none;
-  color: #141f1f;
-  font-size: 0.9rem;
-  line-height: 1.3rem;
-  padding-left: 0.4rem;
 }
 
 .group-four ul i {
