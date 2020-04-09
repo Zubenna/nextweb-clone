@@ -29,12 +29,31 @@
   color: #94b8b8;
 }
 
+.footer-list-a li {
+  padding: 0 0.4rem;
+  list-style: none;
+}
+
 .cover-page ul li,
 .side1 ul li,
 .side2 ul li {
   list-style-type: none;
   display: inline-block;
   padding: 0.2rem;
+}
+
+.section-3-heading ul li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 0 0.6rem;
+  margin-top: 0.3rem;
+  font-size: 1.1rem;
+}
+
+.group-four ul li {
+  padding: 0.3rem 0;
+  border-bottom: 1px solid #d1e0e0;
+  list-style-type: none;
 }
 
 .navgroup-one .left-menu li,
@@ -118,6 +137,10 @@
   margin-top: 2rem;
 }
 
+.group-five-title h5 {
+  font-size: 1rem;
+}
+
 .cover-page header h5 {
   font-size: 1.5rem;
 }
@@ -126,6 +149,11 @@
   margin-bottom: 1.6rem;
   color: #f00;
   font-size: 2rem;
+}
+
+.section-3-heading h2 {
+  font-size: 1.8rem;
+  color: #f00;
 }
 
 .cover-page header h2 {
@@ -202,6 +230,12 @@
   font-size: 0.8rem;
 }
 
+.group-five-title a,
+.group-five-title i {
+  text-decoration: none;
+  color: #f00;
+}
+
 .column-box a {
   text-decoration: none;
   color: #000;
@@ -218,12 +252,72 @@
   padding-left: 0.4rem;
 }
 
+.group-four header a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.section-3-heading a {
+  text-decoration: none;
+  color: #f00;
+}
+
+.group4-title a {
+  text-decoration: none;
+  color: #f00;
+}
+
+.img-extract a {
+  text-decoration: none;
+  color: #141f1f;
+  font-size: 0.9rem;
+}
+
+.img-extract i {
+  margin: 0.6rem 1rem 0 0.9rem;
+}
+
+.group4-titlebox a {
+  text-decoration: none;
+  color: #f00;
+}
+
+.caption-5 a {
+  text-decoration: none;
+  color: #000;
+}
+
 .column-box span a {
   font-size: 1rem;
   color: #b3cbcb;
 }
 
 .group-two-side a:hover {
+  text-decoration: underline;
+  color: #f00;
+}
+
+.group4-title i {
+  font-size: 1.6rem;
+  color: #f00;
+  margin: 0 0 1rem 0.4rem;
+  padding-top: 0.3rem;
+}
+
+.group-four ul a {
+  text-decoration: none;
+  color: #141f1f;
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+  padding-left: 0.4rem;
+}
+
+.group-four ul i {
+  font-size: 0.3rem;
+  color: #ff5c33;
+}
+
+.caption-5 a:hover {
   text-decoration: underline;
   color: #f00;
 }
@@ -243,24 +337,6 @@
   justify-content: space-between;
 }
 
-.section-3-heading a {
-  text-decoration: none;
-  color: #f00;
-}
-
-.section-3-heading ul li {
-  display: inline-block;
-  list-style-type: none;
-  padding: 0 0.6rem;
-  margin-top: 0.3rem;
-  font-size: 1.1rem;
-}
-
-.section-3-heading h2 {
-  font-size: 1.8rem;
-  color: #f00;
-}
-
 .section-3-heading ul li:nth-child(2) {
   border-left: 1px solid #f00;
   border-right: 1px solid #f00;
@@ -276,16 +352,6 @@
 
 .img-extract .img3 {
   padding-left: 2.9rem;
-}
-
-.img-extract a {
-  text-decoration: none;
-  color: #141f1f;
-  font-size: 0.9rem;
-}
-
-.img-extract i {
-  margin: 0.6rem 1rem 0 0.9rem;
 }
 
 .img-group3 {
@@ -346,18 +412,6 @@
   display: flex;
 }
 
-.group4-title a {
-  text-decoration: none;
-  color: #f00;
-}
-
-.group4-title i {
-  font-size: 1.6rem;
-  color: #f00;
-  margin: 0 0 1rem 0.4rem;
-  padding-top: 0.3rem;
-}
-
 .group4-box1 {
   background: linear-gradient(180deg, rgba(243, 239, 239, 0.192), rgba(33, 28, 28, 0.945)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Messenger-Desktop-368x276.jpg");
   min-height: 17.2rem;
@@ -410,9 +464,10 @@
   padding-top: 12rem;
 }
 
-.group-four header a {
-  text-decoration: none;
-  color: #fff;
+.footnote span {
+  font-size: 0.7rem;
+  color: #f00;
+  padding: 0 0.3rem;
 }
 
 .group-four header span,
@@ -436,40 +491,10 @@
   color: #ff471a;
 }
 
-.group4-titlebox a {
-  text-decoration: none;
-  color: #f00;
-}
-
-.group-four ul a {
-  text-decoration: none;
-  color: #141f1f;
-  font-size: 0.9rem;
-  line-height: 1.3rem;
-  padding-left: 0.4rem;
-}
-
-.group-four ul li {
-  padding: 0.3rem 0;
-  border-bottom: 1px solid #d1e0e0;
-  list-style-type: none;
-}
-
-.group-four ul i {
-  font-size: 0.3rem;
-  color: #ff5c33;
-}
-
 .group-five-title {
   display: flex;
   justify-content: space-between;
   margin-bottom: 2rem;
-}
-
-.group-five-title a,
-.group-five-title i {
-  text-decoration: none;
-  color: #f00;
 }
 
 .group-five-container {
@@ -480,20 +505,6 @@
 
 .group-five-title h3 {
   font-size: 1.8rem;
-}
-
-.group-five-title h5 {
-  font-size: 1rem;
-}
-
-.caption-5 a {
-  text-decoration: none;
-  color: #000;
-}
-
-.caption-5 a:hover {
-  text-decoration: underline;
-  color: #f00;
 }
 
 .caption-5 h4 {
@@ -552,11 +563,6 @@ footer .fb {
   text-decoration: none;
 }
 
-.footer-list-a li {
-  padding: 0 0.4rem;
-  list-style: none;
-}
-
 .footer-list-a {
   padding-top: 2.6rem;
 }
@@ -575,12 +581,6 @@ footer .fb {
   display: flex;
   justify-content: center;
   padding-top: 3rem;
-}
-
-.footnote span {
-  font-size: 0.7rem;
-  color: #f00;
-  padding: 0 0.3rem;
 }
 
 .footnote .small-logo {
