@@ -596,8 +596,6 @@ footer .fb {
   padding-bottom: 2.2rem;
 }
 
-/* media query: min-width: 320px */
-
 @media only screen and (min-width: 320px) {
   .navgroup-one {
     display: flex;
@@ -801,8 +799,6 @@ footer .fb {
   }
 }
 
-/* media query: min-width: 768px */
-
 @media only screen and (min-width: 768px) {
   .page-tabs {
     display: flex;
@@ -927,8 +923,6 @@ footer .fb {
     grid-template-columns: 1fr 1fr;
   }
 }
-
-/* media query: min-width: 1024px */
 
 @media only screen and (min-width: 1024px) {
   .nav-logo img {
